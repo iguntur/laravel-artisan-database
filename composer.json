@@ -3,6 +3,10 @@
     "description": "Get the table records from artisan",
     "type": "library",
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/iguntur/laravel-artisan-database/issues",
+        "source": "https://github.com/iguntur/laravel-artisan-database"
+    },
     "authors": [
         {
             "name": "Guntur Poetra",
@@ -14,8 +18,10 @@
             "Guntur\\Artisan\\": "src/Artisan/"
         }
     },
-    "require-dev": {
-        "illuminate/console": "^5.4",
-        "illuminate/support": "^5.4"
-    }
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/console": "^5.4.*",
+        "illuminate/support": "5.4.*"
+    },
+    "minimum-stability": "dev"
 }
