@@ -1,0 +1,21 @@
+{
+    "name": "guntur/laravel-artisan-database",
+    "description": "Get the table records from artisan",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guntur Poetra",
+            "email": "poetra.guntur@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Guntur\\Artisan": "src/Artisan/"
+        }
+    },
+    "require-dev": {
+        "illuminate/console": "^5.4",
+        "illuminate/support": "^5.4"
+    }
+}
