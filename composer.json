@@ -23,5 +23,6 @@
         "illuminate/console": "5.4.*",
         "illuminate/support": "5.4.*"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
